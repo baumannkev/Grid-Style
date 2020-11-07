@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+      body {
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+      }
+
+
+/*NAVIGATION */
+.item-1 {
+  text-align: center;
+  grid-column-start: 1;
+  grid-column-end: 5;
+  background-color: midnightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+/*LOGO */
+.item-2 {
+  text-align: center;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  background-color: dodgerblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*HEADER AD */
+.item-3{
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 2;
+  text-align: center;
+  background-color: deepskyblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*CONTENT */
+.item-4{
+  background-color: navy;
+  vertical-align: middle;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 3;
+  grid-row-end: 10;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+/*SIDEBAR AD */
+.item-5{
+  grid-row-end: 3;
+  grid-row-start: 3;
+  background-color: skyblue;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*FACEBOOK BOX */
+.item-6{
+  grid-row-end: 4;
+  grid-row-start: 4;
+  background-color: skyblue;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*LATEST BLOGS */
+.item-7{
+  grid-row-end: 5;
+  grid-row-start: 5;
+  background-color: skyblue;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*SECONDARY LINKS */
+.item-8{
+  grid-row-end: 6;
+  grid-row-start: 6;
+  background-color: skyblue;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*GAME LINK */
+.item-9{
+  grid-row-end: 7;
+  grid-row-start: 7;
+  background-color: skyblue;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*CONTACT LINK  */
+.item-10{
+  grid-row-end: 8;
+  grid-row-start: 8;
+  background-color: skyblue;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*TUTORIALS */
+.item-11{
+  grid-row-end: 9;
+  grid-row-start: 9;
+  background-color: skyblue;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*FOOTER */
+.item-12{
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 10;
+  grid-row-end: 10;
+  background-color: blueviolet;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid-container {
+  color: white;
+  grid-gap: 10px;
+  background-color: white;
+  font-size: 20pt;
+  margin: 15px;
+  height: 90%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 50px 150px 100px 100px 100px 100px 100px 100px 100px 50px;
+
+}
